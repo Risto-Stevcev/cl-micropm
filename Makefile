@@ -1,4 +1,4 @@
 .PHONY: default
 
 default:
-	tar cf micropm.tar micropm-docker/ micropm-get .envrc
+	makeself micropm micropm-get "Cl-micropm" ./micropm-get.sh
