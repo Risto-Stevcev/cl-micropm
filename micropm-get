@@ -7,8 +7,8 @@ if test "n" = n; then
     umask 077
 fi
 
-CRCsum="1911126173"
-MD5="d82eae015eecc849147825ad42d372d0"
+CRCsum="3181695906"
+MD5="eff5872d11fc0d2694d85bb2d0b942f0"
 SHA="0000000000000000000000000000000000000000000000000000000000000000"
 TMPROOT=${TMPDIR:=/tmp}
 USER_PWD="$PWD"
@@ -23,7 +23,7 @@ cleanup_script=""
 licensetxt=""
 helpheader=''
 targetdir="micropm"
-filesizes="794"
+filesizes="806"
 keep="n"
 nooverwrite="n"
 quiet="n"
@@ -335,7 +335,7 @@ do
 	if test x"n" != x""; then
 	    echo Encryption: n
 	fi
-	echo Date of packaging: Sun Jun 27 01:23:36 CEST 2021
+	echo Date of packaging: Sun Jun 27 13:42:29 CEST 2021
 	echo Built with Makeself version 2.4.2 on 
 	echo Build command was: "/usr/bin/makeself \\
     \"micropm\" \\
@@ -664,7 +664,5 @@ if test x"$keep" = xn; then
     rm -rf "$tmpdir"
 fi
 eval $finish; exit $res
-‹ ø¶×`í˜[oÚ0€óœ_qÆª^œ[I"!õ¡VM¥
-íªJ“PL°šÛl‡‚¦ý÷9¡e¶¬š[;/‰/Ç>öÉ9ÇŽ¦k8ÒPÙ"†Ài6Ë§éÚFý¹À1³i8¶kºÆ±¨7Í¦i)`(; `Ü§ 
-%Œgúý®ý•‚gyF9´?ý+¯ÝzÝ³ƒKïæ¤±wqÝÑcÂrÄæŒã„ézCU$o
-MOHH³<A£,¼ÅTß’ÿ»¶ý¼ÿKÿwÓþlYMléÿ»·§zŒIŒwÿÍfÓY³¿mYÇ2þï‚^¿#?mE3<ÇˆÅ$QÕSï7ƒËnox~ÚëªÝó/õòÉÞ÷Zé‡ªzWçàçE˜C‘|ŽaYCR±Ñqh,cC”yT	S4”0Ð’êÏ&PfõjÐõo×}ïSç£ú$Kp•š³Vc¡>L8ÏYK×Ì}í[AÂÛ²–ÑHÿUªÄþHJóYøRIŠcì3Œnñ\ã3^‰Ey‘¤Ê¸Ïw˜bJÆsx<÷Z•ºX|µ›¥YŠHÊÅ.†œL1|UaBqæÖdëÍxêÇpp¸ì€ª·Ò-xëÞjGO	Ä­Öá“¬à(§Y’s’FPVC"ž	uGe$9::PÕvÿâ´šíô0K¡uõ¾ú1éÕÊbö²Þ÷¡®îb‰ån² áoå#³òû‡`hÔm”:·{(¿Ã7|êùâÿãüo‰ôo+`îB9™ÿï·X8Áï›Î¶Y³¿eŠü/Ì/ï;áý»*ÛŠ§®ävSU>AAb‘—Ç°ÁE\Gˆ&€84öêQTTWòÈ§ÑÊáaµÛÃ\!Åå±ADq?ÁëC­«Àü —¯µ¶j‰c™Øô‘°!«•Y6æw>Å:¬\sFzZMšõ–7áÿ›üÿwLóÞÿ-ÃuÝòþg¸Méÿ¯Èÿ{å)}xqÝiüï‘@* º:N}ÊöÅ?×•Zù+J"‘H$‰D"‘H$‰D²~œïC (  
+‹ %dØ`íX[OÛ0îs~ÅY‡¸<87ÚTªÄj;„¶R”ÂÒ¤*7µÈm¶SZMûï³SèÒB¢ÌßKâË±ÏÉwÎqtCÇé”µW„)à4òiµšfõ¹€cÖ¬†é4[VË<ý–Õ°ì˜µ- `Ü£ 5JÏ6ÌûÓøžååÐù2.ÝNoäöNN‡îõQ}çüªkÄ„åˆÍÇ	3ŒºVSxWÐ„4ËfÁ¦Æ+ñ¿Õl>ÍsÉÇ±ÁÿCÛnÔ ©ø¿}ÿwËÇ˜Äx[ñßj4œ5ÿ7mûPÅÿmà“;èCˆ}â¥m¿ˆc†ç±˜$švìžÀðzxÑëÎŽû=­wöµÚ>ÚùQiýÔ4÷ò¼œ£s(òÐãvw—=$†Žc@s`~CPÐ¢´È£R°`˜za(a`ø$5|M@fírØsoW÷s÷Ôc’%¸LM‹]ËµÐ &œç¬m>æžþ½ Áœ£g42~·J±Iéž+IqŒ=†Ñžë|ÆK±( !’”÷é	SLÉx÷^ëÒ‡/­‰Pš¥ˆ¤\X1àdŠá› g^¸&[ÆS/†½ýåT¾IZðö×öˆÛí[Â'YÁQN³$ç$@vG"ž	uG2’ìiZgp~zÅwF%‰Ðº|_ý˜Œòd1{Þìv¨ª»8¢´Æ>óžñvž12“ß§(‚¡^Y´.uîô» ¿Ãw\õüñÿaþ·EúoÖÀÚ†r*ÿß™Xàï›ê¿¦Uñ¿m‰ü/Ü¯î[ÁÇe¶1N[Éí–¦-8~Ab‘—Ç°"®#D@ê;Õ(*ºKyäÑh¥xXv¿W@±,D÷¼¾ÔZ³Ì÷rùÚh»’8–‰Í…Y¥Í²1¿õ(6`åš{¿ª8ÐãjÒ„¬¼þëlò7ø/sƒä¿c:V«aËûŸÙ²ÿßÿë;²J_uëÿ{$Ð8fP¸²’¼	É
+Z¨‡èêHÅtš^üŽ]éU©^Š_a¼8 (  

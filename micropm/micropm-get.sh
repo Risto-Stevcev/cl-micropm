@@ -8,5 +8,6 @@ docker cp "$SYSTEM_NAME":/home/lisp/quicklisp/dists/quicklisp/software/ lisp-sys
 docker rm "$SYSTEM_NAME"
 docker rmi "$SYSTEM_NAME"
 
-cp -r lisp-systems/ "$USER_PWD"
+test -d lisp-systems && \
+  cp -r lisp-systems "$USER_PWD"
 cp .envrc "$USER_PWD"
