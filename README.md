@@ -102,6 +102,38 @@ it could be updated via other means like directly cloning dependencies from a gi
 ultralisp.
 
 
+## Slimv
+
+Slimv doesn't seem to set env vars:
+
+```lisp
+CL-USER> (uiop:getenv "CL_SOURCE_REGISTRY")
+NIL
+```
+
+Which means that `asdf` won't be able to find your systems.
+
+A hacky workaround:
+
+```sh
+$ echo $CL_SOURCE_REGISTRY
+/home/risto/git/lisp/lqlite/:/home/risto/git/lisp/lqlite/lisp-systems//
+```
+
+```lisp
+CL-USER> (si:setenv "CL_SOURCE_REGISTRY" "/home/risto/git/lisp/lqlite/:/home/risto/git/lisp/lqlite/lisp-systems//")
+"/home/risto/git/lisp/lqlite/:/home/risto/git/lisp/lqlite/lisp-systems//"
+CL-USER> (uiop:getenv "CL_SOURCE_REGISTRY")
+"/home/risto/git/lisp/lqlite/:/home/risto/git/lisp/lqlite/lisp-systems//"
+CL-USER> (asdf:clear-source-registry)
+; No value
+CL-USER> (asdf:ensure-source-registry)
+; No value
+CL-USER> (asdf:load-system :alexandria)
+T
+```
+
+
 ## Roadmap
 
 - Support Ultralisp
